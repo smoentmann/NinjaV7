@@ -1,0 +1,1004 @@
+2026-06-05 14:02:06 DEBUG TestNG:82 - suiteXmlPath: "/Users/shawnam/eclipse-workspace/May Batch/NinjaV6/testng.xml"
+2026-06-05 14:02:06 INFO  Utils:112 - [TestNG] Running:
+  /Users/shawnam/eclipse-workspace/May Batch/NinjaV6/testng.xml
+
+2026-06-05 14:02:06 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:06 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:06 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:06 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:06 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:06 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:06 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-06-05 14:02:06 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-06-05 14:02:06 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-06-05 14:02:06 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:06 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:06 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:07 INFO  BaseClass:120 - Launching Firefox browser
+2026-06-05 14:02:07 INFO  BaseClass:110 - Launching Chrome browser
+2026-06-05 14:02:07 INFO  BaseClass:115 - Launching Edge browser
+2026-06-05 14:02:10 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:10 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:10 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:10 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:10 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:10 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:12 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:13 INFO  BaseClass:19 - ===== TC01_LaunchApplication STARTED =====
+2026-06-05 14:02:13 DEBUG BaseClass:20 - Initializing HomePage object using ThreadLocal driver
+2026-06-05 14:02:13 DEBUG BaseClass:24 - HomePage object created: homePage
+2026-06-05 14:02:13 DEBUG BaseClass:26 - Fetching page title...
+2026-06-05 14:02:13 INFO  BaseClass:28 - Page title captured: Your Store
+2026-06-05 14:02:13 DEBUG BaseClass:32 - Validating page title matches expected value...
+2026-06-05 14:02:13 ERROR BaseClass:37 - ❌ Assertion FAILED: Title did not match. Actual: [Your Store], Expected: [Your store of fun]
+java.lang.AssertionError: Title mismatch! expected [Your store of fun] but found [Your Store]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC01_LaunchApplication.testLaunchApplication(TC01_LaunchApplication.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:02:13 DEBUG BaseClass:174 - Capturing screenshot for test: TC01_LaunchApplication
+2026-06-05 14:02:13 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:13 INFO  BaseClass:19 - ===== TC01_LaunchApplication STARTED =====
+2026-06-05 14:02:13 DEBUG BaseClass:20 - Initializing HomePage object using ThreadLocal driver
+2026-06-05 14:02:13 DEBUG BaseClass:24 - HomePage object created: homePage
+2026-06-05 14:02:13 DEBUG BaseClass:26 - Fetching page title...
+2026-06-05 14:02:13 INFO  BaseClass:28 - Page title captured: Your Store
+2026-06-05 14:02:13 DEBUG BaseClass:32 - Validating page title matches expected value...
+2026-06-05 14:02:13 ERROR BaseClass:37 - ❌ Assertion FAILED: Title did not match. Actual: [Your Store], Expected: [Your store of fun]
+java.lang.AssertionError: Title mismatch! expected [Your store of fun] but found [Your Store]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC01_LaunchApplication.testLaunchApplication(TC01_LaunchApplication.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:02:13 DEBUG BaseClass:174 - Capturing screenshot for test: TC01_LaunchApplication
+2026-06-05 14:02:13 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:41 - Screenshot captured for failure: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:55 - ===== TC01_LaunchApplication FINISHED =====
+2026-06-05 14:02:13 WARN  RetryAnalyzer:18 - Retrying test 'testLaunchApplication' (1 of 2)
+2026-06-05 14:02:13 INFO  BaseClass:19 - ===== TC01_LaunchApplication STARTED =====
+2026-06-05 14:02:13 DEBUG BaseClass:20 - Initializing HomePage object using ThreadLocal driver
+2026-06-05 14:02:13 DEBUG BaseClass:24 - HomePage object created: homePage
+2026-06-05 14:02:13 DEBUG BaseClass:26 - Fetching page title...
+2026-06-05 14:02:13 INFO  BaseClass:28 - Page title captured: Your Store
+2026-06-05 14:02:13 DEBUG BaseClass:32 - Validating page title matches expected value...
+2026-06-05 14:02:13 ERROR BaseClass:37 - ❌ Assertion FAILED: Title did not match. Actual: [Your Store], Expected: [Your store of fun]
+java.lang.AssertionError: Title mismatch! expected [Your store of fun] but found [Your Store]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC01_LaunchApplication.testLaunchApplication(TC01_LaunchApplication.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:02:13 DEBUG BaseClass:174 - Capturing screenshot for test: TC01_LaunchApplication
+2026-06-05 14:02:13 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:41 - Screenshot captured for failure: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:55 - ===== TC01_LaunchApplication FINISHED =====
+2026-06-05 14:02:13 WARN  RetryAnalyzer:18 - Retrying test 'testLaunchApplication' (1 of 2)
+2026-06-05 14:02:13 INFO  BaseClass:19 - ===== TC01_LaunchApplication STARTED =====
+2026-06-05 14:02:13 DEBUG BaseClass:20 - Initializing HomePage object using ThreadLocal driver
+2026-06-05 14:02:13 DEBUG BaseClass:24 - HomePage object created: homePage
+2026-06-05 14:02:13 DEBUG BaseClass:26 - Fetching page title...
+2026-06-05 14:02:13 INFO  BaseClass:28 - Page title captured: Your Store
+2026-06-05 14:02:13 DEBUG BaseClass:32 - Validating page title matches expected value...
+2026-06-05 14:02:13 ERROR BaseClass:37 - ❌ Assertion FAILED: Title did not match. Actual: [Your Store], Expected: [Your store of fun]
+java.lang.AssertionError: Title mismatch! expected [Your store of fun] but found [Your Store]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC01_LaunchApplication.testLaunchApplication(TC01_LaunchApplication.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:02:13 DEBUG BaseClass:174 - Capturing screenshot for test: TC01_LaunchApplication
+2026-06-05 14:02:13 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:41 - Screenshot captured for failure: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:55 - ===== TC01_LaunchApplication FINISHED =====
+2026-06-05 14:02:13 WARN  RetryAnalyzer:18 - Retrying test 'testLaunchApplication' (2 of 2)
+2026-06-05 14:02:13 INFO  BaseClass:19 - ===== TC01_LaunchApplication STARTED =====
+2026-06-05 14:02:13 DEBUG BaseClass:20 - Initializing HomePage object using ThreadLocal driver
+2026-06-05 14:02:13 DEBUG BaseClass:24 - HomePage object created: homePage
+2026-06-05 14:02:13 DEBUG BaseClass:26 - Fetching page title...
+2026-06-05 14:02:13 INFO  BaseClass:28 - Page title captured: Your Store
+2026-06-05 14:02:13 DEBUG BaseClass:32 - Validating page title matches expected value...
+2026-06-05 14:02:13 ERROR BaseClass:37 - ❌ Assertion FAILED: Title did not match. Actual: [Your Store], Expected: [Your store of fun]
+java.lang.AssertionError: Title mismatch! expected [Your store of fun] but found [Your Store]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC01_LaunchApplication.testLaunchApplication(TC01_LaunchApplication.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:02:13 DEBUG BaseClass:174 - Capturing screenshot for test: TC01_LaunchApplication
+2026-06-05 14:02:13 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:41 - Screenshot captured for failure: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:55 - ===== TC01_LaunchApplication FINISHED =====
+2026-06-05 14:02:13 WARN  RetryAnalyzer:18 - Retrying test 'testLaunchApplication' (2 of 2)
+2026-06-05 14:02:13 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:41 - Screenshot captured for failure: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:55 - ===== TC01_LaunchApplication FINISHED =====
+2026-06-05 14:02:13 DEBUG BaseClass:174 - Capturing screenshot for test: testLaunchApplication
+2026-06-05 14:02:13 INFO  BaseClass:19 - ===== TC01_LaunchApplication STARTED =====
+2026-06-05 14:02:13 DEBUG BaseClass:20 - Initializing HomePage object using ThreadLocal driver
+2026-06-05 14:02:13 DEBUG BaseClass:24 - HomePage object created: homePage
+2026-06-05 14:02:13 DEBUG BaseClass:26 - Fetching page title...
+2026-06-05 14:02:13 INFO  BaseClass:28 - Page title captured: Your Store
+2026-06-05 14:02:13 DEBUG BaseClass:32 - Validating page title matches expected value...
+2026-06-05 14:02:13 ERROR BaseClass:37 - ❌ Assertion FAILED: Title did not match. Actual: [Your Store], Expected: [Your store of fun]
+java.lang.AssertionError: Title mismatch! expected [Your store of fun] but found [Your Store]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC01_LaunchApplication.testLaunchApplication(TC01_LaunchApplication.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:02:13 DEBUG BaseClass:174 - Capturing screenshot for test: TC01_LaunchApplication
+2026-06-05 14:02:13 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\testLaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:02:13 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:02:13 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:41 - Screenshot captured for failure: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140213.png
+2026-06-05 14:02:13 INFO  BaseClass:55 - ===== TC01_LaunchApplication FINISHED =====
+2026-06-05 14:02:13 DEBUG BaseClass:174 - Capturing screenshot for test: testLaunchApplication
+2026-06-05 14:02:13 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:13 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:13 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-06-05 14:02:13 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:13 INFO  BaseClass:110 - Launching Chrome browser
+2026-06-05 14:02:14 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\testLaunchApplication_20260605140213.png
+2026-06-05 14:02:14 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:02:14 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:02:14 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:14 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:14 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-06-05 14:02:14 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:14 INFO  BaseClass:115 - Launching Edge browser
+2026-06-05 14:02:15 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:15 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:15 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:15 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:15 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:15 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:17 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:17 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:17 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:17 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:17 INFO  TC03_AddToCart:20 - ********** Starting TC03_AddToCart Test **********
+2026-06-05 14:02:17 DEBUG TC03_AddToCart:24 - Creating CategoryPage object
+2026-06-05 14:02:17 DEBUG TC03_AddToCart:27 - Clicking on Laptops & Notebooks menu
+2026-06-05 14:02:17 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:17 INFO  TC03_AddToCart:20 - ********** Starting TC03_AddToCart Test **********
+2026-06-05 14:02:17 DEBUG TC03_AddToCart:24 - Creating CategoryPage object
+2026-06-05 14:02:17 DEBUG TC03_AddToCart:27 - Clicking on Laptops & Notebooks menu
+2026-06-05 14:02:18 DEBUG TC03_AddToCart:30 - Clicking on Show All Laptops & Notebooks
+2026-06-05 14:02:18 DEBUG TC03_AddToCart:30 - Clicking on Show All Laptops & Notebooks
+2026-06-05 14:02:19 DEBUG TC03_AddToCart:33 - Waiting for products to load
+2026-06-05 14:02:19 DEBUG TC03_AddToCart:33 - Waiting for products to load
+2026-06-05 14:02:19 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:19 INFO  BaseClass:19 - ===== TC01_LaunchApplication STARTED =====
+2026-06-05 14:02:19 DEBUG BaseClass:20 - Initializing HomePage object using ThreadLocal driver
+2026-06-05 14:02:19 DEBUG BaseClass:24 - HomePage object created: homePage
+2026-06-05 14:02:19 DEBUG BaseClass:26 - Fetching page title...
+2026-06-05 14:02:19 INFO  BaseClass:28 - Page title captured: Your Store
+2026-06-05 14:02:19 DEBUG BaseClass:32 - Validating page title matches expected value...
+2026-06-05 14:02:19 ERROR BaseClass:37 - ❌ Assertion FAILED: Title did not match. Actual: [Your Store], Expected: [Your store of fun]
+java.lang.AssertionError: Title mismatch! expected [Your store of fun] but found [Your Store]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC01_LaunchApplication.testLaunchApplication(TC01_LaunchApplication.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:02:19 DEBUG BaseClass:174 - Capturing screenshot for test: TC01_LaunchApplication
+2026-06-05 14:02:19 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140219.png
+2026-06-05 14:02:19 INFO  BaseClass:41 - Screenshot captured for failure: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140219.png
+2026-06-05 14:02:19 INFO  BaseClass:55 - ===== TC01_LaunchApplication FINISHED =====
+2026-06-05 14:02:19 WARN  RetryAnalyzer:18 - Retrying test 'testLaunchApplication' (1 of 2)
+2026-06-05 14:02:19 INFO  BaseClass:19 - ===== TC01_LaunchApplication STARTED =====
+2026-06-05 14:02:19 DEBUG BaseClass:20 - Initializing HomePage object using ThreadLocal driver
+2026-06-05 14:02:19 DEBUG BaseClass:24 - HomePage object created: homePage
+2026-06-05 14:02:19 DEBUG BaseClass:26 - Fetching page title...
+2026-06-05 14:02:19 INFO  BaseClass:28 - Page title captured: Your Store
+2026-06-05 14:02:19 DEBUG BaseClass:32 - Validating page title matches expected value...
+2026-06-05 14:02:19 ERROR BaseClass:37 - ❌ Assertion FAILED: Title did not match. Actual: [Your Store], Expected: [Your store of fun]
+java.lang.AssertionError: Title mismatch! expected [Your store of fun] but found [Your Store]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC01_LaunchApplication.testLaunchApplication(TC01_LaunchApplication.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:02:19 DEBUG BaseClass:174 - Capturing screenshot for test: TC01_LaunchApplication
+2026-06-05 14:02:19 DEBUG TC03_AddToCart:36 - Selecting HP Product
+2026-06-05 14:02:20 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140219.png
+2026-06-05 14:02:20 INFO  BaseClass:41 - Screenshot captured for failure: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140219.png
+2026-06-05 14:02:20 INFO  BaseClass:55 - ===== TC01_LaunchApplication FINISHED =====
+2026-06-05 14:02:20 WARN  RetryAnalyzer:18 - Retrying test 'testLaunchApplication' (2 of 2)
+2026-06-05 14:02:20 INFO  BaseClass:19 - ===== TC01_LaunchApplication STARTED =====
+2026-06-05 14:02:20 DEBUG BaseClass:20 - Initializing HomePage object using ThreadLocal driver
+2026-06-05 14:02:20 DEBUG BaseClass:24 - HomePage object created: homePage
+2026-06-05 14:02:20 DEBUG BaseClass:26 - Fetching page title...
+2026-06-05 14:02:20 INFO  BaseClass:28 - Page title captured: Your Store
+2026-06-05 14:02:20 DEBUG BaseClass:32 - Validating page title matches expected value...
+2026-06-05 14:02:20 ERROR BaseClass:37 - ❌ Assertion FAILED: Title did not match. Actual: [Your Store], Expected: [Your store of fun]
+java.lang.AssertionError: Title mismatch! expected [Your store of fun] but found [Your Store]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at testCases.TC01_LaunchApplication.testLaunchApplication(TC01_LaunchApplication.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:02:20 DEBUG BaseClass:174 - Capturing screenshot for test: TC01_LaunchApplication
+2026-06-05 14:02:20 DEBUG TC03_AddToCart:36 - Selecting HP Product
+2026-06-05 14:02:20 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140220.png
+2026-06-05 14:02:20 INFO  BaseClass:41 - Screenshot captured for failure: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\TC01_LaunchApplication_20260605140220.png
+2026-06-05 14:02:20 INFO  BaseClass:55 - ===== TC01_LaunchApplication FINISHED =====
+2026-06-05 14:02:20 DEBUG BaseClass:174 - Capturing screenshot for test: testLaunchApplication
+2026-06-05 14:02:20 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\testLaunchApplication_20260605140220.png
+2026-06-05 14:02:20 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:02:20 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:02:20 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:20 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:20 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-06-05 14:02:20 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:20 INFO  BaseClass:120 - Launching Firefox browser
+2026-06-05 14:02:21 DEBUG TC03_AddToCart:39 - Creating ProductPage object
+2026-06-05 14:02:21 DEBUG TC03_AddToCart:42 - Setting delivery date
+2026-06-05 14:02:21 DEBUG TC03_AddToCart:39 - Creating ProductPage object
+2026-06-05 14:02:21 DEBUG TC03_AddToCart:42 - Setting delivery date
+2026-06-05 14:02:21 DEBUG TC03_AddToCart:45 - Clicking Add To Cart button
+2026-06-05 14:02:21 DEBUG TC03_AddToCart:45 - Clicking Add To Cart button
+2026-06-05 14:02:22 DEBUG TC03_AddToCart:50 - Verifying success message after adding product to cart
+2026-06-05 14:02:22 DEBUG TC03_AddToCart:50 - Verifying success message after adding product to cart
+2026-06-05 14:02:22 INFO  TC03_AddToCart:56 - Product successfully added to cart.
+2026-06-05 14:02:22 INFO  TC03_AddToCart:74 - ********** Finished TC03_AddToCart Test **********
+2026-06-05 14:02:22 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:02:22 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:02:22 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:22 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:22 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-06-05 14:02:22 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:22 INFO  BaseClass:110 - Launching Chrome browser
+2026-06-05 14:02:22 INFO  TC03_AddToCart:56 - Product successfully added to cart.
+2026-06-05 14:02:22 INFO  TC03_AddToCart:74 - ********** Finished TC03_AddToCart Test **********
+2026-06-05 14:02:22 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:02:22 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:02:23 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:23 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:23 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-06-05 14:02:23 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:23 INFO  BaseClass:115 - Launching Edge browser
+2026-06-05 14:02:24 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:24 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:24 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:24 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:24 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:24 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:24 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:24 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:24 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:26 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:26 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:26 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-06-05 14:02:26 DEBUG BaseClass:24 - Test data received -> Email: shawnamoentmann@gmail.com, Password length: 8
+2026-06-05 14:02:26 DEBUG BaseClass:29 - Initializing HomePage
+2026-06-05 14:02:26 INFO  BaseClass:32 - Clicking My Account
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:26 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-06-05 14:02:26 DEBUG BaseClass:24 - Test data received -> Email: shawnamoentmann@gmail.com, Password length: 8
+2026-06-05 14:02:26 DEBUG BaseClass:29 - Initializing HomePage
+2026-06-05 14:02:26 INFO  BaseClass:32 - Clicking My Account
+2026-06-05 14:02:26 INFO  BaseClass:35 - Navigating to Login page
+2026-06-05 14:02:26 INFO  BaseClass:35 - Navigating to Login page
+2026-06-05 14:02:26 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:26 INFO  TC03_AddToCart:20 - ********** Starting TC03_AddToCart Test **********
+2026-06-05 14:02:26 DEBUG TC03_AddToCart:24 - Creating CategoryPage object
+2026-06-05 14:02:26 DEBUG TC03_AddToCart:27 - Clicking on Laptops & Notebooks menu
+2026-06-05 14:02:27 DEBUG BaseClass:39 - Initializing LoginPage
+2026-06-05 14:02:27 INFO  BaseClass:42 - Entering email
+2026-06-05 14:02:27 DEBUG BaseClass:39 - Initializing LoginPage
+2026-06-05 14:02:27 INFO  BaseClass:42 - Entering email
+2026-06-05 14:02:27 DEBUG TC03_AddToCart:30 - Clicking on Show All Laptops & Notebooks
+2026-06-05 14:02:27 INFO  BaseClass:45 - Entering password
+2026-06-05 14:02:27 INFO  BaseClass:45 - Entering password
+2026-06-05 14:02:27 INFO  BaseClass:48 - Clicking Login button
+2026-06-05 14:02:27 INFO  BaseClass:48 - Clicking Login button
+2026-06-05 14:02:27 DEBUG BaseClass:52 - Initializing AccountPage
+2026-06-05 14:02:27 DEBUG BaseClass:52 - Initializing AccountPage
+2026-06-05 14:02:28 DEBUG TC03_AddToCart:33 - Waiting for products to load
+2026-06-05 14:02:28 DEBUG TC03_AddToCart:36 - Selecting HP Product
+2026-06-05 14:02:29 INFO  BaseClass:56 - MyAccount confirmation displayed: true
+2026-06-05 14:02:29 DEBUG BaseClass:60 - Asserting login status
+2026-06-05 14:02:29 INFO  BaseClass:62 - ✅ Login assertion PASSED
+2026-06-05 14:02:29 INFO  BaseClass:75 - Performing logout
+2026-06-05 14:02:29 INFO  BaseClass:56 - MyAccount confirmation displayed: true
+2026-06-05 14:02:29 DEBUG BaseClass:60 - Asserting login status
+2026-06-05 14:02:29 INFO  BaseClass:62 - ✅ Login assertion PASSED
+2026-06-05 14:02:29 INFO  BaseClass:75 - Performing logout
+2026-06-05 14:02:29 INFO  BaseClass:78 - Logout successful
+2026-06-05 14:02:29 INFO  BaseClass:92 - ===== TC02_Login FINISHED =====
+2026-06-05 14:02:29 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:02:29 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:02:29 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:29 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:29 DEBUG BaseClass:50 - Browser Parameter Received: chrome
+2026-06-05 14:02:29 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:29 INFO  BaseClass:110 - Launching Chrome browser
+2026-06-05 14:02:29 INFO  BaseClass:78 - Logout successful
+2026-06-05 14:02:29 INFO  BaseClass:92 - ===== TC02_Login FINISHED =====
+2026-06-05 14:02:29 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:02:29 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:02:30 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:30 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:30 DEBUG BaseClass:50 - Browser Parameter Received: edge
+2026-06-05 14:02:30 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:30 INFO  BaseClass:115 - Launching Edge browser
+2026-06-05 14:02:30 DEBUG TC03_AddToCart:39 - Creating ProductPage object
+2026-06-05 14:02:30 DEBUG TC03_AddToCart:42 - Setting delivery date
+2026-06-05 14:02:30 DEBUG TC03_AddToCart:45 - Clicking Add To Cart button
+2026-06-05 14:02:30 DEBUG TC03_AddToCart:50 - Verifying success message after adding product to cart
+2026-06-05 14:02:31 INFO  TC03_AddToCart:56 - Product successfully added to cart.
+2026-06-05 14:02:31 INFO  TC03_AddToCart:74 - ********** Finished TC03_AddToCart Test **********
+2026-06-05 14:02:31 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:02:31 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:02:31 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:31 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:31 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:31 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:31 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:31 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:31 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:31 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:31 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-06-05 14:02:31 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:31 INFO  BaseClass:120 - Launching Firefox browser
+2026-06-05 14:02:33 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:33 INFO  TC04_CompletePurchase:23 - ********** Starting TC04_CompletePurchase Test **********
+2026-06-05 14:02:33 DEBUG TC04_CompletePurchase:27 - Creating CategoryPage object
+2026-06-05 14:02:33 DEBUG TC04_CompletePurchase:30 - Navigating to Laptops & Notebooks category
+2026-06-05 14:02:33 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:33 INFO  TC04_CompletePurchase:23 - ********** Starting TC04_CompletePurchase Test **********
+2026-06-05 14:02:33 DEBUG TC04_CompletePurchase:27 - Creating CategoryPage object
+2026-06-05 14:02:33 DEBUG TC04_CompletePurchase:30 - Navigating to Laptops & Notebooks category
+2026-06-05 14:02:34 DEBUG TC04_CompletePurchase:33 - Clicking Show All option
+2026-06-05 14:02:34 DEBUG TC04_CompletePurchase:33 - Clicking Show All option
+2026-06-05 14:02:34 DEBUG TC04_CompletePurchase:36 - Waiting for products to load
+2026-06-05 14:02:35 DEBUG TC04_CompletePurchase:36 - Waiting for products to load
+2026-06-05 14:02:35 DEBUG TC04_CompletePurchase:39 - Selecting HP product
+2026-06-05 14:02:35 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:35 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:35 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:35 DEBUG TC04_CompletePurchase:39 - Selecting HP product
+2026-06-05 14:02:36 DEBUG TC04_CompletePurchase:42 - Creating ProductPage object
+2026-06-05 14:02:36 DEBUG TC04_CompletePurchase:45 - Setting delivery date
+2026-06-05 14:02:36 DEBUG TC04_CompletePurchase:48 - Adding product to cart
+2026-06-05 14:02:37 DEBUG TC04_CompletePurchase:42 - Creating ProductPage object
+2026-06-05 14:02:37 DEBUG TC04_CompletePurchase:45 - Setting delivery date
+2026-06-05 14:02:37 DEBUG TC04_CompletePurchase:48 - Adding product to cart
+2026-06-05 14:02:37 DEBUG TC04_CompletePurchase:51 - Proceeding to checkout
+2026-06-05 14:02:37 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:37 DEBUG TC04_CompletePurchase:51 - Proceeding to checkout
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-06-05 14:02:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-06-05 14:02:37 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-06-05 14:02:37 DEBUG BaseClass:24 - Test data received -> Email: shawnamoentmann@gmail.com, Password length: 8
+2026-06-05 14:02:37 DEBUG BaseClass:29 - Initializing HomePage
+2026-06-05 14:02:37 INFO  BaseClass:32 - Clicking My Account
+2026-06-05 14:02:38 INFO  BaseClass:35 - Navigating to Login page
+2026-06-05 14:02:38 DEBUG BaseClass:39 - Initializing LoginPage
+2026-06-05 14:02:38 INFO  BaseClass:42 - Entering email
+2026-06-05 14:02:38 INFO  BaseClass:45 - Entering password
+2026-06-05 14:02:38 INFO  BaseClass:48 - Clicking Login button
+2026-06-05 14:02:38 DEBUG BaseClass:52 - Initializing AccountPage
+2026-06-05 14:02:39 INFO  BaseClass:56 - MyAccount confirmation displayed: true
+2026-06-05 14:02:39 DEBUG BaseClass:60 - Asserting login status
+2026-06-05 14:02:39 INFO  BaseClass:62 - ✅ Login assertion PASSED
+2026-06-05 14:02:39 INFO  BaseClass:75 - Performing logout
+2026-06-05 14:02:39 DEBUG TC04_CompletePurchase:54 - Creating CheckoutPage object
+2026-06-05 14:02:39 DEBUG TC04_CompletePurchase:57 - Clicking Login option during checkout
+2026-06-05 14:02:39 DEBUG TC04_CompletePurchase:54 - Creating CheckoutPage object
+2026-06-05 14:02:39 DEBUG TC04_CompletePurchase:57 - Clicking Login option during checkout
+2026-06-05 14:02:39 INFO  BaseClass:78 - Logout successful
+2026-06-05 14:02:39 INFO  BaseClass:92 - ===== TC02_Login FINISHED =====
+2026-06-05 14:02:39 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:02:39 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:02:40 DEBUG TC04_CompletePurchase:60 - Creating LoginPage object
+2026-06-05 14:02:40 DEBUG TC04_CompletePurchase:63 - Entering login credentials
+2026-06-05 14:02:40 DEBUG TC04_CompletePurchase:60 - Creating LoginPage object
+2026-06-05 14:02:40 DEBUG TC04_CompletePurchase:63 - Entering login credentials
+2026-06-05 14:02:40 DEBUG TC04_CompletePurchase:66 - Entering password
+2026-06-05 14:02:40 DEBUG TC04_CompletePurchase:66 - Entering password
+2026-06-05 14:02:40 DEBUG TC04_CompletePurchase:69 - Clicking Login button
+2026-06-05 14:02:40 DEBUG TC04_CompletePurchase:69 - Clicking Login button
+2026-06-05 14:02:40 DEBUG TC04_CompletePurchase:72 - Completing checkout process
+2026-06-05 14:02:40 DEBUG TC04_CompletePurchase:72 - Completing checkout process
+2026-06-05 14:02:40 INFO  BaseClass:48 - ========== Test Execution Started ==========
+2026-06-05 14:02:40 DEBUG BaseClass:49 - Operating System: windows
+2026-06-05 14:02:40 DEBUG BaseClass:50 - Browser Parameter Received: firefox
+2026-06-05 14:02:40 DEBUG BaseClass:54 - Loading config.properties file
+2026-06-05 14:02:40 INFO  BaseClass:120 - Launching Firefox browser
+2026-06-05 14:02:44 DEBUG BaseClass:131 - WebDriver instance set to ThreadLocal
+2026-06-05 14:02:44 DEBUG BaseClass:135 - Implicit wait set to 10 seconds
+2026-06-05 14:02:44 INFO  BaseClass:138 - Navigating to application URL: https://www.cloudberrystore.services/
+2026-06-05 14:02:46 DEBUG BaseClass:142 - Browser window maximized
+2026-06-05 14:02:46 INFO  TC04_CompletePurchase:23 - ********** Starting TC04_CompletePurchase Test **********
+2026-06-05 14:02:46 DEBUG TC04_CompletePurchase:27 - Creating CategoryPage object
+2026-06-05 14:02:46 DEBUG TC04_CompletePurchase:30 - Navigating to Laptops & Notebooks category
+2026-06-05 14:02:47 DEBUG TC04_CompletePurchase:33 - Clicking Show All option
+2026-06-05 14:02:48 DEBUG TC04_CompletePurchase:36 - Waiting for products to load
+2026-06-05 14:02:48 DEBUG TC04_CompletePurchase:39 - Selecting HP product
+2026-06-05 14:02:50 DEBUG TC04_CompletePurchase:42 - Creating ProductPage object
+2026-06-05 14:02:50 DEBUG TC04_CompletePurchase:45 - Setting delivery date
+2026-06-05 14:02:50 DEBUG TC04_CompletePurchase:48 - Adding product to cart
+2026-06-05 14:02:50 DEBUG TC04_CompletePurchase:51 - Proceeding to checkout
+2026-06-05 14:02:52 DEBUG TC04_CompletePurchase:54 - Creating CheckoutPage object
+2026-06-05 14:02:52 DEBUG TC04_CompletePurchase:57 - Clicking Login option during checkout
+2026-06-05 14:02:52 DEBUG TC04_CompletePurchase:60 - Creating LoginPage object
+2026-06-05 14:02:52 DEBUG TC04_CompletePurchase:63 - Entering login credentials
+2026-06-05 14:02:52 DEBUG TC04_CompletePurchase:66 - Entering password
+2026-06-05 14:02:52 DEBUG TC04_CompletePurchase:69 - Clicking Login button
+2026-06-05 14:02:52 DEBUG TC04_CompletePurchase:72 - Completing checkout process
+2026-06-05 14:03:02 DEBUG TC04_CompletePurchase:75 - Creating ConfirmationPage object
+2026-06-05 14:03:02 DEBUG TC04_CompletePurchase:80 - Verifying order placement confirmation
+2026-06-05 14:03:03 INFO  TC04_CompletePurchase:86 - Order has been placed successfully.
+2026-06-05 14:03:03 INFO  TC04_CompletePurchase:104 - ********** Finished TC04_CompletePurchase Test **********
+2026-06-05 14:03:03 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:03:03 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:03:07 ERROR TC04_CompletePurchase:99 - Exception occurred during Complete Purchase test execution
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#button\-payment\-methods"}
+  (Session info: MicrosoftEdge=148.0.3967.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '21.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f2ecde302df3438f12ad4074a62dc3a3, findElement {value=button-payment-methods, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 41334, ms:edgeOptions: {debuggerAddress: localhost:59285}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: /var/folders/cv/m4r0kzsj1vz...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59285/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2ecde302df3438f12ad4074a62dc3a3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at pageObjects.CheckoutPage.completeCheckout(CheckoutPage.java:50)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:03:07 INFO  TC04_CompletePurchase:104 - ********** Finished TC04_CompletePurchase Test **********
+2026-06-05 14:03:07 WARN  RetryAnalyzer:18 - Retrying test 'testCompletePurchase' (1 of 2)
+2026-06-05 14:03:07 INFO  TC04_CompletePurchase:23 - ********** Starting TC04_CompletePurchase Test **********
+2026-06-05 14:03:07 DEBUG TC04_CompletePurchase:27 - Creating CategoryPage object
+2026-06-05 14:03:07 DEBUG TC04_CompletePurchase:30 - Navigating to Laptops & Notebooks category
+2026-06-05 14:03:07 DEBUG TC04_CompletePurchase:33 - Clicking Show All option
+2026-06-05 14:03:07 DEBUG TC04_CompletePurchase:36 - Waiting for products to load
+2026-06-05 14:03:08 ERROR TC04_CompletePurchase:99 - Exception occurred during Complete Purchase test execution
+org.openqa.selenium.NoSuchElementException: Unable to locate element: #button\-shipping\-method
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '21.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [67dae574-9b4c-4ee2-9d6b-89dac1839b4e, findElement {value=button-shipping-method, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.3, moz:accessibilityChecks: false, moz:buildID: 20260601110758, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 41441, moz:profile: /var/folders/cv/m4r0kzsj1vz..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 67dae574-9b4c-4ee2-9d6b-89dac1839b4e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at pageObjects.CheckoutPage.completeCheckout(CheckoutPage.java:48)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:03:08 INFO  TC04_CompletePurchase:104 - ********** Finished TC04_CompletePurchase Test **********
+2026-06-05 14:03:08 WARN  RetryAnalyzer:18 - Retrying test 'testCompletePurchase' (1 of 2)
+2026-06-05 14:03:08 INFO  TC04_CompletePurchase:23 - ********** Starting TC04_CompletePurchase Test **********
+2026-06-05 14:03:08 DEBUG TC04_CompletePurchase:27 - Creating CategoryPage object
+2026-06-05 14:03:08 DEBUG TC04_CompletePurchase:30 - Navigating to Laptops & Notebooks category
+2026-06-05 14:03:08 DEBUG TC04_CompletePurchase:39 - Selecting HP product
+2026-06-05 14:03:09 DEBUG TC04_CompletePurchase:33 - Clicking Show All option
+2026-06-05 14:03:09 DEBUG TC04_CompletePurchase:42 - Creating ProductPage object
+2026-06-05 14:03:09 DEBUG TC04_CompletePurchase:45 - Setting delivery date
+2026-06-05 14:03:09 DEBUG TC04_CompletePurchase:36 - Waiting for products to load
+2026-06-05 14:03:09 DEBUG TC04_CompletePurchase:48 - Adding product to cart
+2026-06-05 14:03:09 DEBUG TC04_CompletePurchase:39 - Selecting HP product
+2026-06-05 14:03:10 DEBUG TC04_CompletePurchase:51 - Proceeding to checkout
+2026-06-05 14:03:10 DEBUG TC04_CompletePurchase:42 - Creating ProductPage object
+2026-06-05 14:03:10 DEBUG TC04_CompletePurchase:45 - Setting delivery date
+2026-06-05 14:03:10 DEBUG TC04_CompletePurchase:48 - Adding product to cart
+2026-06-05 14:03:11 DEBUG TC04_CompletePurchase:51 - Proceeding to checkout
+2026-06-05 14:03:11 DEBUG TC04_CompletePurchase:54 - Creating CheckoutPage object
+2026-06-05 14:03:11 DEBUG TC04_CompletePurchase:57 - Clicking Login option during checkout
+2026-06-05 14:03:13 DEBUG TC04_CompletePurchase:54 - Creating CheckoutPage object
+2026-06-05 14:03:13 DEBUG TC04_CompletePurchase:57 - Clicking Login option during checkout
+2026-06-05 14:03:21 ERROR TC04_CompletePurchase:99 - Exception occurred during Complete Purchase test execution
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[normalize-space()='login page']"}
+  (Session info: MicrosoftEdge=148.0.3967.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '21.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f2ecde302df3438f12ad4074a62dc3a3, findElement {value=//strong[normalize-space()='login page'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 41334, ms:edgeOptions: {debuggerAddress: localhost:59285}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: /var/folders/cv/m4r0kzsj1vz...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59285/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2ecde302df3438f12ad4074a62dc3a3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at pageObjects.CheckoutPage.clickLogin(CheckoutPage.java:39)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:03:21 INFO  TC04_CompletePurchase:104 - ********** Finished TC04_CompletePurchase Test **********
+2026-06-05 14:03:21 WARN  RetryAnalyzer:18 - Retrying test 'testCompletePurchase' (2 of 2)
+2026-06-05 14:03:21 INFO  TC04_CompletePurchase:23 - ********** Starting TC04_CompletePurchase Test **********
+2026-06-05 14:03:21 DEBUG TC04_CompletePurchase:27 - Creating CategoryPage object
+2026-06-05 14:03:21 DEBUG TC04_CompletePurchase:30 - Navigating to Laptops & Notebooks category
+2026-06-05 14:03:22 DEBUG TC04_CompletePurchase:33 - Clicking Show All option
+2026-06-05 14:03:22 DEBUG TC04_CompletePurchase:36 - Waiting for products to load
+2026-06-05 14:03:23 DEBUG TC04_CompletePurchase:39 - Selecting HP product
+2026-06-05 14:03:23 ERROR TC04_CompletePurchase:99 - Exception occurred during Complete Purchase test execution
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //strong[normalize-space()='login page']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '21.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [67dae574-9b4c-4ee2-9d6b-89dac1839b4e, findElement {value=//strong[normalize-space()='login page'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.3, moz:accessibilityChecks: false, moz:buildID: 20260601110758, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 41441, moz:profile: /var/folders/cv/m4r0kzsj1vz..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 67dae574-9b4c-4ee2-9d6b-89dac1839b4e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at pageObjects.CheckoutPage.clickLogin(CheckoutPage.java:39)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:03:23 INFO  TC04_CompletePurchase:104 - ********** Finished TC04_CompletePurchase Test **********
+2026-06-05 14:03:23 WARN  RetryAnalyzer:18 - Retrying test 'testCompletePurchase' (2 of 2)
+2026-06-05 14:03:23 INFO  TC04_CompletePurchase:23 - ********** Starting TC04_CompletePurchase Test **********
+2026-06-05 14:03:23 DEBUG TC04_CompletePurchase:27 - Creating CategoryPage object
+2026-06-05 14:03:23 DEBUG TC04_CompletePurchase:30 - Navigating to Laptops & Notebooks category
+2026-06-05 14:03:23 DEBUG TC04_CompletePurchase:33 - Clicking Show All option
+2026-06-05 14:03:24 DEBUG TC04_CompletePurchase:36 - Waiting for products to load
+2026-06-05 14:03:25 DEBUG TC04_CompletePurchase:39 - Selecting HP product
+2026-06-05 14:03:25 ERROR TC04_CompletePurchase:99 - Exception occurred during Complete Purchase test execution
+org.openqa.selenium.ElementNotInteractableException: Element <a href="https://cloudberrystore.services/index.php?route=product/product&language=en-gb&product_id=47"> could not be scrolled into view
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '21.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [67dae574-9b4c-4ee2-9d6b-89dac1839b4e, clickElement {id=333a7d00-9e68-41f8-b6f5-b007eb2c1926}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 151.0.3, moz:accessibilityChecks: false, moz:buildID: 20260601110758, moz:geckodriverVersion: 0.37.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 41441, moz:profile: /var/folders/cv/m4r0kzsj1vz..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (67dae574-9b4c-4ee2-9d6b-89dac1839b4e)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: 67dae574-9b4c-4ee2-9d6b-89dac1839b4e
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at pageObjects.CategoryPage.selectHPProduct(CategoryPage.java:51)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:03:25 INFO  TC04_CompletePurchase:104 - ********** Finished TC04_CompletePurchase Test **********
+2026-06-05 14:03:25 DEBUG BaseClass:174 - Capturing screenshot for test: testCompletePurchase
+2026-06-05 14:03:25 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\testCompletePurchase_20260605140325.png
+2026-06-05 14:03:25 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:03:25 INFO  BaseClass:162 - Closing browser and quitting WebDriver
+2026-06-05 14:03:33 ERROR TC04_CompletePurchase:99 - Exception occurred during Complete Purchase test execution
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=148.0.3967.96)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.6.1', java.version: '21.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f2ecde302df3438f12ad4074a62dc3a3, clickElement {id=f.A56FE5408BC4E3F001C37E11FAD37F8E.d.80BA7A86C5D1B2D4C6EBA558F41FE806.e.630}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.96, fedcm:accounts: true, goog:processID: 41334, ms:edgeOptions: {debuggerAddress: localhost:59285}, msedge: {msedgedriverVersion: 148.0.3967.96 (9df8cc82dba1..., userDataDir: /var/folders/cv/m4r0kzsj1vz...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59285/devtoo..., se:cdpVersion: 148.0.3967.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on mac (f2ecde302df3438f12ad4074a62dc3a3)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: f2ecde302df3438f12ad4074a62dc3a3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
+	at pageObjects.CategoryPage.selectHPProduct(CategoryPage.java:51)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-05 14:03:33 INFO  TC04_CompletePurchase:104 - ********** Finished TC04_CompletePurchase Test **********
+2026-06-05 14:03:33 DEBUG BaseClass:174 - Capturing screenshot for test: testCompletePurchase
+2026-06-05 14:03:33 INFO  BaseClass:186 - Screenshot saved at: /Users/shawnam/eclipse-workspace/May Batch/NinjaV6\screenshots\testCompletePurchase_20260605140333.png
+2026-06-05 14:03:33 INFO  BaseClass:158 - ========== Test Execution Completed ==========
+2026-06-05 14:03:33 INFO  BaseClass:162 - Closing browser and quitting WebDriver
